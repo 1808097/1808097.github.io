@@ -1,0 +1,153 @@
+/*Removes all margins/paddings, to make later work easier*/
+*{
+  margin:0px;
+  padding: 0px;
+}
+/*Below is all styling for banner and navigation bar*/
+h1{
+  width:100%;
+  background-image:url("Bannerimage.jpg");
+  text-align:center;
+  height:150px;
+  line-height:150px;
+  font-size: 60px;
+  color:mediumturquoise;
+  font-size: 7vw;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+nav {
+  margin: auto;
+  width: 100%;
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  border-color: black;
+}
+nav ul {
+  list-style-type: none;
+  background-color:rgb(46, 180, 46);
+}
+nav ul li {
+  text-align:center;
+  display: inline-block;
+  font-size: 3vw;
+  padding: 1.5% 0% 1.5% 0%;
+  width:16.4%;
+  text-decoration: none;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-color: black;
+}
+nav ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color:darkblue;
+}
+#navbutton1 {
+  padding: 0.5em 0.78em 0.54em 0.78em;
+}
+#navbutton2 {
+  padding: 0.5em 2.0em 0.54em 2.0em;
+}
+#navbutton3 {
+  padding: 0.5em 1.18em 0.54em 1.18em;
+}
+#navbutton4 {
+  padding: 0.5em 0.35em 0.54em 0.35em;
+}
+#navbutton5 {
+  padding: 0.5em 0.83em 0.54em 0.83em;
+}
+#navbutton6 {
+  padding: 0.5em 1.2em 0.54em 1.2em;
+}
+/*Below is styling for the main content of the html page*/
+h2{
+  text-align:center;
+  margin: 30px 100px 0px 100px;
+  font-size:90px;
+  background-color: rgba(80, 220, 160, 0.95);
+  border-radius:25px;
+  font-size: 9vw;
+}
+mainbody p{
+  margin:40px 2% 20px 4%;
+  padding:20px 2% 20px 2%;
+  background-color: rgba(90, 210, 90, 0.9);
+	width:22%;
+  border-radius:25px;
+  font-size: 1.75vw;
+  display: block;
+}
+mainbody form{
+    margin:40px 2% 20px 4%;
+    padding:20px 2% 20px 2%;
+    background-color: rgba(90, 210, 90, 0.9);
+    display: block;
+    border-radius:25px;
+    float: left;
+    width:22%;
+    font-size: 1.5vw;
+}
+mainbody iframe{
+	margin:40px 4% 20px 4%;
+	width: 60%;
+  height:500px;
+  position:relative;
+  float:right;
+}
+.userInput {
+  width:100%;
+  height:100px;
+  overflow: scroll;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 4px;
+}
+#email{
+  width:90%;
+  margin-bottom: 6px
+}
+body{
+  background-image:url("backgroundimage6.jpg");
+}
+/*Below is code to change navigation bar below certain width*/
+@media(max-width: 770px){
+  nav {
+    margin: auto;
+    width: 100%;
+    border-width: 0px;
+  }
+  nav ul li {
+    text-align:center;
+    display: inline-block;
+    font-size: 25px;
+    font-size: 3vw;
+    padding: 1.5% 0% 1.5% 0%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width:32.7%;
+  }
+  #navbutton1 {
+    padding: 0.5em 3.55em 0.54em 3.55em;
+  }
+  #navbutton2 {
+    padding: 0.5em 4.75em 0.54em 4.75em;
+  }
+  #navbutton3 {
+    padding: 0.5em 3.95em 0.54em 3.95em;
+  }
+  #navbutton4 {
+    padding: 0.5em 3.1em 0.54em 3.1em;
+  }
+  #navbutton5 {
+    padding: 0.5em 3.6em 0.54em 3.6em;
+  }
+  #navbutton6 {
+    padding: 0.5em 3.75em 0.54em 3.75em;
+  }
+}

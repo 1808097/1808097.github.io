@@ -1,0 +1,253 @@
+/*Removes all margins/paddings, to make later work easier*/
+*{
+  margin:0px;
+  padding: 0px;
+}
+/*Below is all styling for banner and navigation bar*/
+h1{
+  width:100%;
+  background-image:url("Bannerimage.jpg");
+  text-align:center;
+  height:150px;
+  line-height:150px;
+  font-size: 60px;
+  color:mediumturquoise;
+  font-size: 7vw;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+nav {
+  margin: auto;
+  width: 100%;
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  border-color: black;
+}
+nav ul {
+  list-style-type: none;
+  background-color:rgb(46, 180, 46);
+}
+nav ul li {
+  text-align:center;
+  display: inline-block;
+  font-size: 3vw;
+  padding: 1.5% 0% 1.5% 0%;
+  width:16.4%;
+  text-decoration: none;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-color: black;
+}
+nav ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color:darkblue;
+}
+#navbutton1 {
+  padding: 0.5em 0.78em 0.54em 0.78em;
+}
+#navbutton2 {
+  padding: 0.5em 2.0em 0.54em 2.0em;
+}
+#navbutton3 {
+  padding: 0.5em 1.18em 0.54em 1.18em;
+}
+#navbutton4 {
+  padding: 0.5em 0.35em 0.54em 0.35em;
+}
+#navbutton5 {
+  padding: 0.5em 0.83em 0.54em 0.83em;
+}
+#navbutton6 {
+  padding: 0.5em 1.2em 0.54em 1.2em;
+}
+/*Below is styling for the jumpbar*/
+jumpbar ul{
+	margin:auto;
+	width: 40%;
+	background-color: rgba(150,150,150, 0.9);
+	text-align: center;
+	margin-top:10px;
+  border-radius:25px;
+}
+jumpbar ul li{
+	display: inline;
+	padding:0px 13px 0px 13px;
+  font-size: 1.5vw;
+}
+/*Below is styling for the main content of the html page, positions each element based on order in html page*/
+h2{
+  text-align:center;
+  margin: 30px 100px 0px 100px;
+  font-size:90px;
+  background-color: rgba(40, 150, 210, 0.95);
+  border-radius:25px;
+  font-size: 9vw;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+firstsection{
+  display: inline-block;
+}
+firstsection h3{
+  margin:40px 20px 0px 20px;
+  padding:8px 15px 8px 15px;
+  background-color: rgba(0,80,150,0.9);
+  width:20%;
+  font-size: 2vw;
+  color: silver;
+}
+firstsection p{
+  margin:20px 2% 20px 4%;
+  padding:20px 2% 20px 2%;
+  background-color: rgba(90, 210, 90, 0.9);
+	float:left;
+	width:42%;
+  border-radius:25px;
+  font-size: 1.5vw;
+}
+firstsection img{
+	margin:15px 3.5% 15px 3.5%;
+	float:right;
+	width:40%;
+  height:40%;
+  background-color: black;
+  padding:4px 0.5% 4px 0.5%;
+  border-radius:25px;
+}
+secondsection {
+  display: inline-block;
+}
+secondsection h3{
+  margin:40px 20px 0px 20px;
+  padding:8px 15px 8px 15px;
+  background-color: rgba(0,80,150,0.9);
+  width:20%;
+  font-size: 2vw;
+  color: silver;
+}
+secondsection p{
+  margin:20px 2% 20px 4%;
+  padding:20px 2% 20px 2%;
+  background-color: rgba(90, 210, 90, 0.9);
+	float:right;
+	width:42%;
+  border-radius:25px;
+  font-size: 1.5vw;
+}
+secondsection img{
+  margin:15px 3.5% 15px 3.5%;
+	float:left;
+	width:40%;
+  height:40%;
+  background-color: black;
+  padding:4px 0.5% 4px 0.5%;
+  border-radius:25px;
+}
+thirdsection{
+  display: inline-block;
+}
+thirdsection h3{
+  margin:40px 20px 0px 20px;
+  padding:8px 15px 8px 15px;
+  background-color: rgba(0,80,150,0.9);
+  width:20%;
+  font-size: 2vw;
+  color: silver;
+}
+thirdsection p{
+  margin:20px 2% 20px 4%;
+  padding:20px 2% 20px 2%;
+  background-color: rgba(90, 210, 90, 0.9);
+	float:left;
+	width:42%;
+  border-radius:25px;
+  font-size: 1.5vw;
+}
+thirdsection img{
+  margin:15px 3.5% 15px 3.5%;
+	float:right;
+  width:40%;
+  height:40%;
+  background-color: black;
+  padding:4px 0.5% 4px 0.5%;
+  border-radius:25px;
+}
+fourthsection {
+  display: inline-block;
+}
+fourthsection h3{
+  margin:40px 20px 0px 20px;
+  padding:8px 15px 8px 15px;
+  background-color: rgba(0,80,150,0.9);
+  width:20%;
+  font-size: 2vw;
+  color: silver;
+}
+fourthsection p{
+  margin:20px 2% 20px 4%;
+  padding:20px 2% 20px 2%;
+  background-color: rgba(90, 210, 90, 0.9);
+	float:right;
+	width:42%;
+  border-radius:25px;
+  font-size: 1.5vw;
+}
+fourthsection img{
+	margin:15px 3.5% 15px 3.5%;
+	float:left;
+  width:40%;
+  height:40%;
+  background-color: black;
+  padding:4px 0.5% 4px 0.5%;
+  border-radius:25px;
+}
+body{
+  background-image:url("backgroundimage5.jpg");
+}
+/*Below is code to change navigation bar below certain width*/
+@media(max-width: 770px){
+  nav {
+    margin: auto;
+    width: 100%;
+    border-width: 0px;
+  }
+  nav ul li {
+    text-align:center;
+    display: inline-block;
+    font-size: 25px;
+    font-size: 3vw;
+    padding: 1.5% 0% 1.5% 0%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width:32.7%;
+  }
+  jumpbar ul li{
+    display: inline;
+    padding:0px 13px 0px 13px;
+    font-size: 10px;
+  }
+  #navbutton1 {
+    padding: 0.5em 3.55em 0.54em 3.55em;
+  }
+  #navbutton2 {
+    padding: 0.5em 4.75em 0.54em 4.75em;
+  }
+  #navbutton3 {
+    padding: 0.5em 3.95em 0.54em 3.95em;
+  }
+  #navbutton4 {
+    padding: 0.5em 3.1em 0.54em 3.1em;
+  }
+  #navbutton5 {
+    padding: 0.5em 3.6em 0.54em 3.6em;
+  }
+  #navbutton6 {
+    padding: 0.5em 3.75em 0.54em 3.75em;
+  }
+}
